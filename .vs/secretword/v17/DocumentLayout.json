@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{2666B691-4039-4B26-A2E0-22E63DEBE558}|secretword.esproj|c:\\users\\leona\\documents\\visual studio 2022\\projects\\secretword\\src\\components\\game.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{2666B691-4039-4B26-A2E0-22E63DEBE558}|secretword.esproj|solutionrelative:src\\components\\game.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -65,17 +60,8 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Game.css",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\src\\components\\Game.css",
-              "RelativeDocumentMoniker": "src\\components\\Game.css",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\src\\components\\Game.css",
-              "RelativeToolTip": "src\\components\\Game.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-20T11:36:24.282Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
