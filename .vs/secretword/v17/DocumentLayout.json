@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A7AAE31-0876-4C1F-83B7-7F3C59FA9235}|secretword.esproj|c:\\users\\leona\\documents\\visual studio 2022\\projects\\secretword\\src\\components\\game.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{8A7AAE31-0876-4C1F-83B7-7F3C59FA9235}|secretword.esproj|solutionrelative:src\\components\\game.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{8A7AAE31-0876-4C1F-83B7-7F3C59FA9235}|secretword.esproj|c:\\users\\leona\\documents\\visual studio 2022\\projects\\secretword\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{8A7AAE31-0876-4C1F-83B7-7F3C59FA9235}|secretword.esproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,14 +71,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Game.css",
-              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\src\\components\\Game.css",
-              "RelativeDocumentMoniker": "src\\components\\Game.css",
-              "ToolTip": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\src\\components\\Game.css",
-              "RelativeToolTip": "src\\components\\Game.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-20T12:32:58.95Z",
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\leona\\Documents\\Visual Studio 2022\\Projects\\SecretWord\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-21T18:21:50.389Z",
               "EditorCaption": ""
             }
           ]

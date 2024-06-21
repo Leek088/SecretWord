@@ -33,33 +33,33 @@ function App() {
     const [score, setScore] = useState(0);
 
 
-    const pickWordAndCategory = () => {
+    const pickWordAndCategory = useCallback(() => {
+        console.log("pickWordAndCategory");
         const categories = Object.keys(words);
         const category = categories[Math.floor(Math.random() * categories.length)];
         const word = words[category][Math.floor(Math.random() * words[category].length)];
         return { category, word };
-    };
+    }, []);
 
-    const startGame = () => {
+    const startGame = useCallback(() => {
+        clearLetterStates();        
+        console.log("stratGame");
         const { word, category } = pickWordAndCategory();
-
         let wordLetters = word.split("");
         wordLetters = wordLetters.map((l) => l.toLowerCase());
-
         setPicketCategory(category);
         setPicketWord(word);
         setLetters(wordLetters);
         setGameStage(stages[1].name);
-    };
+    }, []);
 
     const verifyLetter = (letter) => {
+        console.log("verifyLetter");
         const normalizedLetter = letter.toLowerCase();
-
         if (guessedLetters.includes(normalizedLetter) ||
             wrongLetters.includes(normalizedLetter)) {
             return;
         }
-
         if (letters.includes(normalizedLetter)) {
             setGuessedLetters((actualGuessedLetters) => [
                 ...actualGuessedLetters,
@@ -73,15 +73,17 @@ function App() {
 
             setGuesses((actualGuesses) => actualGuesses - 1);
         }
-
     };
 
     const clearLetterStates = () => {
+        console.log("clearLetterStates");
         setGuessedLetters([]);
         setWrongLetters([]);
+        setGuesses(guessesQuantity);
     }
 
     const retryGamePoints = () => {
+        console.log("retryGamePoints");
         setScore(0);
         setGuesses(guessesQuantity);
     }
@@ -93,7 +95,18 @@ function App() {
         }
     }, [guesses])
 
+    useEffect(() => {
+        const uniqueLetters = [...new Set(letters)];
+        if (guessedLetters.length > 0) {
+            if (guessedLetters.length === uniqueLetters.length) {
+                setScore((actualScore) => (actualScore += 100));
+                startGame();
+            }
+        }
+    }, [guessedLetters]);
+
     const retry = () => {
+        console.log("retry");
         retryGamePoints();
         setGameStage(stages[0].name);
     };
